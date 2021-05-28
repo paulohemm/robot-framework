@@ -1,3 +1,5 @@
+# Robot Framework
+Esse repositório contém os dicas e arquivos estudados sobre o framework que contribuirei com o tempo.
 
 ## Pré-Requisitos do Robot Framework
 Para rodar o Robot Framework é necessário instalar as seguintes ferramentas:
@@ -41,7 +43,7 @@ executar trocando uma variavel especifica
 robot  -d ./results -v BROWSER:firefox tests
 ```
 
-## Links Importantes
+## Links Interessantes
 - [Robot Framework](https://robotframework.org/#libraries)
 - [Libraries RobotFramework](https://robotframework.org/#libraries)
 - [Dicas](http://robotizandotestes.blogspot.com/)
