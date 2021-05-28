@@ -30,9 +30,10 @@ Para rodar o teste, após clonar o repositório e realizado os pré-requisitos, 
 ```
 robot -d ./results tests 
 ```
-caso o GeckoDriver tiver sido selecionado, é necessário rodar o seguinte comando:
+executar um caso de teste especifico
+
 ```
-robot -d ./results -v BROWSER:firefox tests
+robot  -d ./results -t "Caso de teste 01: ~~" tests
 ```
 
 ## Links Importantes
