@@ -35,6 +35,11 @@ executar um caso de teste especifico
 ```
 robot  -d ./results -t "Caso de teste 01: ~~" tests
 ```
+executar trocando uma variavel especifica
+
+```
+robot  -d ./results -v BROWSER:firefox tests
+```
 
 ## Links Importantes
 - [Robot Framework](https://robotframework.org/#libraries)
